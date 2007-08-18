@@ -6,7 +6,7 @@
 Summary:	Mod_ipenv is a DSO module for the apache web server
 Name:		apache-%{mod_name}
 Version:	1.0.2
-Release:	%mkrel 2
+Release:	%mkrel 3
 Group:		System/Servers
 License:	GPL
 URL:		http://mod-ipenv.sourceforge.net/
@@ -75,5 +75,3 @@ fi
 %doc sample CHANGES LICENCE README README.jp
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/httpd/modules.d/%{mod_conf}
 %attr(0755,root,root) %{_libdir}/apache-extramodules/%{mod_so}
-
-

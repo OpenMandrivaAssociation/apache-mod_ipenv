@@ -6,7 +6,7 @@
 Summary:	DSO module for the apache web server
 Name:		apache-%{mod_name}
 Version:	1.0.2
-Release:	%mkrel 11
+Release:	%mkrel 12
 Group:		System/Servers
 License:	GPL
 URL:		http://mod-ipenv.sourceforge.net/

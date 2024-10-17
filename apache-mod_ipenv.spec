@@ -9,7 +9,7 @@ Version:	1.0.2
 Release:	%mkrel 14
 Group:		System/Servers
 License:	GPL
-URL:		http://mod-ipenv.sourceforge.net/
+URL:		https://mod-ipenv.sourceforge.net/
 Source0:	http://ovh.dl.sourceforge.net/sourceforge/mod-ipenv/mod-ipenv-%{version}.tar.bz2
 Source1:	%{mod_conf}
 Requires(pre): rpm-helper
